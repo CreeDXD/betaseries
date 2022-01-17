@@ -1,10 +1,39 @@
+
 body{
     background-color: #f2f3f6;
+    margin: 0;
 }
 header{
     background-color: #3b8dd0;
     color: #ffffff;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
 }
+    header ul{
+        display:flex;     
+        list-style: none;    
+    }
+    header ul li{
+        margin:10px;
+    }
+
+
 .banderole{
+    margin:0;
     background-color: #171f26;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;   
 }
+    .banderole a{
+        text-decoration: none;
+        color: #ffffff;
+        margin-right:2em;
+    }
+    .fixed{
+        width: 100%;
+        position: fixed;
+    }
