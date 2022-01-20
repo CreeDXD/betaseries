@@ -3,6 +3,7 @@ body{
     background-color: #f2f3f6;
     margin: 0;
 }
+
 header{
     background-color: #3b8dd0;
     color: #ffffff;
@@ -19,7 +20,6 @@ header{
         margin:10px;
     }
 
-
 .banderole{
     margin:0;
     background-color: #171f26;
@@ -27,6 +27,7 @@ header{
     flex-direction:row;
     align-items: center;
     justify-content: center;   
+    padding: 10px;
 }
     .banderole a{
         text-decoration: none;
@@ -35,5 +36,47 @@ header{
     }
     .fixed{
         width: 100%;
-        position: fixed;
+        position: fixed;   
+        top: 0;     
     }
+
+    /*case principale*/
+
+.main{
+    width: 58%;
+    height: auto;
+    background-color: #f2f3f6;
+    margin: auto;
+    margin-top: 8em;
+}
+
+.banniere{
+    height: 20px;
+    color:#3B8DD0;
+    font-size: 8px;
+    vertical-align: middle;
+    margin-bottom:5px;
+
+}
+    .banniere h1{
+        border:solid 1.5px #c1e1fa;
+        padding-left: 5px;
+        padding-top:2px;
+        padding-bottom:2px;
+    }
+
+.container_right{
+    width:59%;
+    float: left;
+}
+.container_left{
+    width:40%;
+    margin-left:60%;
+}
+
+footer{
+    height:44.5%;
+    width: 100%;
+    background-color:#0d151c;
+    margin-top: 1%; 
+}
