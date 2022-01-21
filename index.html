@@ -42,7 +42,7 @@
             </div>
             <div class="container">
                 <!--cote gauche du site -->
-                <div class="container_right">
+                <div class="container_left">
                     <div class="slider_infini">
                         <img src="boys.jpg" alt="boys">
                         <img src="anime.jpg" alt="anime">
@@ -52,6 +52,7 @@
                     </div>
                     
                     <div class="series_decouvrir">
+                        <h1 id="decouvrire"></h1>
                         <img src="superman_et_lois.jpg" alt="superman_et_lois">
                         <img src="loki.jpg" alt="loki">
                         <img src="sisi.jpg" alt="">
@@ -117,7 +118,7 @@
                 </div>
                 
                 <!-- coté droit du site / aside -->
-                <aside class="container_left">
+                <aside class="container_right">
                     <!-- top series du moment-->
                     <div class="top_series">
                         <div class="banniere">
@@ -227,37 +228,46 @@
             
         </div>
         <footer>
-            <img src="betaseries.jpg" alt="betaseries">
-            <h1>betaseries</h1>
-            <p>
-                En dix ans d’existence, BetaSeries est devenu le meilleur allié de vos séries : 
-                gérez votre planning, partagez vos derniers épisodes regardés, et découvrez des nouveautés… 
-                Le tout entouré de la plus grosse communauté francophone de films et séries.
-            </p>
-            <div class="icon">
-                <img src="twitter.jpg" alt="twitter">
-                <img src="facebook.jpg" alt="facebook">
-                <img src="rss.jpg" alt="rss">
+            <div class="container_footer_right">
+                <div class="logo">
+                    <img src="betaseries.jpg" alt="betaseries">
+                    <h1>betaseries</h1>
+                </div>
+                
+                <p>
+                    En dix ans d’existence, BetaSeries est devenu le meilleur allié de vos séries : 
+                    gérez votre planning, partagez vos derniers épisodes regardés, et découvrez des nouveautés… 
+                    Le tout entouré de la plus grosse communauté francophone de films et séries.
+                </p>
             </div>
-            <p>Conditions générales d'utilisation ·  Annuaire des
-                séries ·  Annuaire des films ·  Documentation API ·
-                FAQ ·  Contacter le support<br><br>
-                © 2022 BetaSeries</p>
-                <form method="post" action="traitement.php">
-                    <p>
-                        <label for="langue"></label><br />
-                        <select name="langue" id="pays">
-                            <option value="france" selected>France</option>
-                            <option value="espagne">Espagne</option>
-                            <option value="italie">Italie</option>
-                            <option value="royaume-uni">Royaume-Uni</option>
-                            <option value="canada">Canada</option>
-                            <option value="etats-unis">États-Unis</option>
-                            <option value="chine">Chine</option>
-                            <option value="japon">Japon</option>
-                        </select>
-                    </p>
-                 </form>
+            <div class="container_footer_left">
+                <div class="icon">
+                    <img src="twitter.jpg" alt="twitter">
+                    <img src="facebook.jpg" alt="facebook">
+                    <img src="rss.jpg" alt="rss">
+                </div>
+                <p>
+                    Conditions générales d'utilisation ·  Annuaire des
+                    séries ·  Annuaire des films ·  Documentation API ·
+                    FAQ ·  Contacter le support<br><br>
+                    © 2022 BetaSeries
+                </p>
+                    <form method="post" action="traitement.php">
+                        <p>
+                            <label for="langue"></label><br />
+                            <select name="langue" id="pays">
+                                <option value="france" selected>France</option>
+                                <option value="espagne">Espagne</option>
+                                <option value="italie">Italie</option>
+                                <option value="royaume-uni">Royaume-Uni</option>
+                                <option value="canada">Canada</option>
+                                <option value="etats-unis">États-Unis</option>
+                                <option value="chine">Chine</option>
+                                <option value="japon">Japon</option>
+                            </select>
+                        </p>
+                     </form>
+            </div>
         </footer>
     </body>
 </html>
