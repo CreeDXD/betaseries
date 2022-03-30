@@ -22,19 +22,74 @@ header{
     }
 
 .banderole{
+    padding: 0;
     margin:0;
     background-color: #171f26;
     display: flex;
     flex-direction:row;
     align-items: center;
-    justify-content: center;   
-    padding: 10px;
+    justify-content: center; 
+    height:35px;  
 }
     .banderole a{
         text-decoration: none;
         color: #ffffff;
         margin-right:2em;
-    }
+    }  
+        #disney_tag{
+            width: 64px;
+            height: 35px;
+            background:
+                url(images/disneyplus.png)
+                no-repeat
+            ;
+            background-size: 64px 35px;
+            background-position-Y:-5px;
+            color: transparent;
+        }
+        #arte_tag{
+            background: 
+                no-repeat
+                url(images/arte.png)
+            ;            
+            background-size: 48px 12px;
+            width: 48px;
+            height: 12px;
+            color: transparent;
+        }
+        #starz_tag{
+            background: 
+                no-repeat
+                url(images/starzplay.png)
+            ;
+            background-position-y: 12px;           
+            background-size: 82px 12px;
+            width: 82px;
+            height: 35px;
+            color: transparent;
+        }
+        #appel_tag{
+            background: 
+                no-repeat
+                url(images/apple-tv-plus.png)
+            ;            
+            background-size: 48px 18px;
+            width: 48px;
+            height: 25px;
+            color: transparent;
+        }
+        #salto_tag{
+            background: 
+                no-repeat
+                url(images/salto.png)
+            ;
+            background-position-y: 12px;           
+            background-size: 68px 12px;
+            width: 68px;
+            height: 35px;
+            color: transparent;
+        }
+
     .fixed{
         width: 100%;
         position: fixed;   
@@ -85,9 +140,16 @@ header{
 
 footer{
     color: #85898c;
-    height:230px;
+    height:210px;
     width: 90%;
     background-color:#0d151c;
+    background-image: 
+        url(
+            images/footer-background_3.png
+        );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:40% 100%;
     margin-top: 1%; 
     position: absolute;
     padding: 6% 5% 6% 5%;
